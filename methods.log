@@ -1,0 +1,15 @@
+02/07/2019
+
+Downloaded
+mus musculus gtf and fasta for 38, release 95 and 84
+ftp://ftp.ensembl.org/pub/release-95/fasta/mus_musculus/dna/
+
+Downloaded 
+repeat sequence mask for mm10 from 
+UCSC genome browser, group:All, tracks:RepeatMasker
+
+Installed bowtie2
+
+Built script AlignFastqData.sh to quality check reads (fastqc) 
+align reads (bowtie2) convert to bam and sort based on coordinate 
+(picard).
